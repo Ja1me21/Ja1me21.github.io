@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio Jaime Martinez Ruiperez</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Jaime Martínez</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero.png" alt="">
+            </div>
+            <h1>Jaime Martínez Ruipérez</h1>
+            <h2>Programador Backend</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/jaime-mart%C3%ADnez-ruip%C3%A9rez-2b75031a2/"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/Ja1me21"><i class="fa-brands fa-github"></i></a>
+                <a href="https://drive.google.com/file/d/1wubZXaDHHGYgoDH2XMaJa5yr0vcfdWP2/view?usp=sharing" download>
+                    <i class="fa-solid fa-download"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>¡Hola! Soy Jaime Martínez</span>, tengo 22 años y mi amor por la informática viene desde que era
+                niño. Estoy lleno de entusiasmo por aprender y crecer en este emocionante campo. La posibilidad de
+                resolver problemas y crear soluciones a través del código me motiva todos los días. Mi objetivo es
+                seguir desarrollando mis habilidades para contribuir de manera significativa en el mundo de la
+                tecnología.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            21/12/2000
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +34 601394448
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            jaimemartinezruiperez@gmail.com
+                        </li>
+
+                        <li>
+                            <strong>Dirección</strong>
+                            Murcia, España
+                        </li>
+
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-cat"></i>
+                            <span>ANIMALES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-code"></i>
+                            <span>CODE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>TECNICO EN SISTEMAS MICROINFORMATICOS Y
+                            REDES</h4>
+                        <span class="casa">IES Alquerías</span>
+                        <span class="fecha">2017-2019</span>
+                        <p><i class="fa-solid fa-circle-dot"></i> Montaje y mantenimiento de equipos.</p>
+                        <p><i class="fa-solid fa-circle-dot"></i> Virtualización Virtualbox.</p>
+                        <p><i class="fa-solid fa-circle-dot"></i> Seguridad en procesos y directorio
+                            activo.</p>
+                        <p><i class="fa-solid fa-circle-dot"></i> Networking.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>TECNICO SUPERIOR EN ADMINISTRACIÓN DE
+                            SISTEMAS INFORMATICOS EN RED</h4>
+                        <span class="casa">IES Aljada</span>
+                        <span class="fecha">2019-2021</span>
+                        <p><i class="fa-solid fa-circle-dot"></i> Administrador de Servidores Linux y Windows.</p>
+                        <p><i class="fa-solid fa-circle-dot"></i> Elaboración de documentación técnica y manuales.</p>
+                        <p><i class="fa-solid fa-circle-dot"></i> Manejo y configuración de Active Directory.</p>
+                        <p><i class="fa-solid fa-circle-dot"></i> Mantenimiento y administración de Backups.</p>
+                        <p><i class="fa-solid fa-circle-dot"></i> Configuración de redes locales.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>TECNICO SUPERIOR EN DESARROLLO DE
+                            APLICACIONES MULTIPLATAFORMA</h4>
+                        <span class="casa">IES INGENIERO DE LA CIERVA</span>
+                        <span class="fecha">2021-2023</span>
+                        <p><i class="fa-solid fa-circle-dot"></i> Manejo de bases de datos SQL.</p>
+                        <p><i class="fa-solid fa-circle-dot"></i> Instalación y administración del ERP Odoo.</p>
+                        <p><i class="fa-solid fa-circle-dot"></i> Manejo de lenguajes de programación : Java, Python y
+                            C#.</p>
+                        <p><i class="fa-solid fa-circle-dot"></i> Uso de herramientas de control de versiones como
+                            Github
+                            y Bitbucket.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>SOPORTE HELPDESK LV1</h4>
+                        <span class="casa">INFOACP</span>
+                        <span class="fecha">2019</span>
+                        <p><i class="fa-solid fa-circle-dot"></i> Administración de servicios corriendo en Servidor
+                            Linux.</p>
+                        <p><i class="fa-solid fa-circle-dot"></i> Monitorización tanto de servidores como servicios con
+                            el software de Nagios XI.</p>
+
+                        <p><i class="fa-solid fa-circle-dot"></i> Resolución de incidencias tanto nivel de Hardware como
+                            Software.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>TECNICO CAU</h4>
+                        <span class="casa">ALTERNA TECNOLOGIAS</span>
+                        <span class="fecha">2021</span>
+                        <p><i class="fa-solid fa-circle-dot"></i> Resolución de incidencias tanto de nivel de Hardware
+                            como Software in-situ.</p>
+                        <p><i class="fa-solid fa-circle-dot"></i> Gestión de inventario.</p>
+                        <p><i class="fa-solid fa-circle-dot"></i> Montaje y administración de una nube privada
+                            utilizando el software
+                            Owncloud.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>JAVA DEVELOPER</h4>
+                        <span class="casa">NTT DATA</span>
+                        <span class="fecha">2023</span>
+                        <p><i class="fa-solid fa-circle-dot"></i> Desarrollar API REST utilizando Java y el framework de
+                            Spring.</p>
+                        <p><i class="fa-solid fa-circle-dot"></i> Realizar pruebas unitarias utilizando JUnit y Mockito
+                            para garantizar la
+                            calidad del código y buscar una cobertura lo más completa posible.</p>
+                        <p><i class="fa-solid fa-circle-dot"></i> Manejo de BBDD con SQL y DBeaver</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <a href="https://github.com/Ja1me21/TerrorGodot">
+                    <div class="proyecto">
+                        <img src="img/p1.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Juego con Godot</h3>
+                            <p>Desarrollo</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/jaime-mart%C3%ADnez-ruip%C3%A9rez-2b75031a2/"><i
+                    class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/Ja1me21"><i class="fa-brands fa-github"></i></a>
+            <a href="https://drive.google.com/file/d/1wubZXaDHHGYgoDH2XMaJa5yr0vcfdWP2/view?usp=sharing" download>
+                <i class="fa-solid fa-download"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
